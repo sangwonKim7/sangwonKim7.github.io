@@ -1,11 +1,38 @@
 {
-  "applinks": {
-      "apps": [],
-      "details": [
-      {
-        "appID": "W44R9MS3PZ.com.example.sharingApp",
-        "paths": ["*"]
+    "applinks": {
+        "details": [
+             {
+               "appIDs": [ "W44R9MS3PZ.com.example.sharingApp", "W44R9MS3PZ.com.example.sharingApp2" ],
+               "components": [
+                 {
+                    "#": "no_universal_links",
+                    "exclude": true,
+                    "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                 },
+                 {
+                    "/": "/buy/*",
+                    "#": "payment_method=SOME",
+                    "comment": "Matches any URL whose path starts with /buy/"
+                 },
+                 {
+                    "/": "/help/website/*",
+                    "?": { "lang": "?*" },
+                    "exclude": true,
+                    "comment": "Matches any URL whose path starts with /help/website/ and instructs the system not to open it as a universal link"
+                 },
+                 {
+                    "/": "/????/help/*",
+                    "?": { "articleNumber": "????" },
+                    "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+                 }
+               ]
+             }
+         ]
+     },
+     "webcredentials": {
+        "apps": [ "W44R9MS3PZ.com.example.sharingApp" ]
+     },
+      "appclips": {
+          "apps": ["ABCED12345.com.example.MyApp.Clip"]
       }
-    ]
   }
-}
