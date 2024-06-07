@@ -10,5 +10,17 @@
                 "33:7E:9E:CE:0F:99:D8:88:19:8C:B9:88:31:5D:FF:DF:EF:BE:C8:05:57:AC:8A:97:93:BE:0F:28:E7:A3:E0:E3"
             ]
         }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.example.sharing_app",
+            "sha256_cert_fingerprints": [
+                "E5:4A:21:FF:E4:C6:94:48:FE:64:67:F1:16:EA:73:6D:74:A5:CC:1C:1A:04:74:58:DD:AA:DD:C5:AF:9F:C3:A5"
+            ]
+        }
     }
 ]
