@@ -5,9 +5,9 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "com.samsungfire.pet",
+            "package_name": "com.dubhesoft.petlife",
             "sha256_cert_fingerprints": [
-                "0E:82:C9:69:1A:73:93:31:09:BE:FF:AE:D2:16:12:58:50:D5:2F:17:76:47:F3:2E:1B:42:E5:28:3C:15:0B:6B"
+                "25:B4:C4:CF:56:7A:E8:41:C4:6E:38:AD:A9:56:2A:09:39:5C:11:62:13:17:90:0A:A6:B2:99:2F:C9:DF:F3:A8"
             ]
         }
     }
