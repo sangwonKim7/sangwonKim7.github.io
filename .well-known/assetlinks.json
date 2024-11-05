@@ -5,7 +5,7 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "com.example.flutter_application_2",
+            "package_name": "com.example.router_deeplink_loading_sample",
             "sha256_cert_fingerprints": [
                 "0E:82:C9:69:1A:73:93:31:09:BE:FF:AE:D2:16:12:58:50:D5:2F:17:76:47:F3:2E:1B:42:E5:28:3C:15:0B:6B"
             ]
