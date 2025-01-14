@@ -5,7 +5,7 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "com.dubhesoft.petlife",
+            "package_name": "kr.co.mybrown.udada",
             "sha256_cert_fingerprints": [
                 "25:B4:C4:CF:56:7A:E8:41:C4:6E:38:AD:A9:56:2A:09:39:5C:11:62:13:17:90:0A:A6:B2:99:2F:C9:DF:F3:A8"
             ]
